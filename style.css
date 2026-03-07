@@ -36,6 +36,10 @@ header h1{
     background-color: #e3e3e3;
 }
 
+header a{
+    z-index: 3;
+}
+
 .logo{
     background-color: #e3e3e3;
 }
@@ -44,11 +48,11 @@ nav{
     display: flex;
     align-items: center;
     gap: 3rem;
-    margin-left: -5%;
+    z-index: 3;
 }
 
 nav a{
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
     transition: color 0.2s ease;
     text-decoration: none;
@@ -67,13 +71,16 @@ nav a:hover{
     padding: 0.8rem 2rem;
     border-radius: 50px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     transition: background-color 0.2s ease;
     cursor: pointer;
+    text-decoration: none;
 }
+
 .btn-signing:hover{
     background-color: #fff;
+    color: #6600c5;
 }
 
 /*MAIN CONTENT*/
@@ -166,6 +173,7 @@ main{
 .btn-get-started:hover{
     background-color: #6600c5;
     color:#fff;
+    font-size: 1.2rem;
 }
 
 .btn-signing-main{
@@ -283,10 +291,11 @@ main{
     .buttons{
         justify-content: center;
         margin-top: 2rem;
+        font-size: 1.2rem;
     }
 
     .btn-get-started{
-        font-size: 0.85rem;
+        font-size: 1.2rem;
         padding: 0.5rem 1.5rem;
     }
 }
