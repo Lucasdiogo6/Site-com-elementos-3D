@@ -52,7 +52,7 @@ nav{
 }
 
 nav a{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
     transition: color 0.2s ease;
     text-decoration: none;
@@ -71,7 +71,7 @@ nav a:hover{
     padding: 0.8rem 2rem;
     border-radius: 50px;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     transition: background-color 0.2s ease;
     cursor: pointer;
